@@ -1,0 +1,130 @@
+@media screen and (max-width:500px) {
+    .list {
+        display: none;
+    }
+
+    .secDiv p {
+        font-size: 70px;
+        height: auto;
+    }
+
+
+    .main-job-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .job-list {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .job-list ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .job-list ul li {
+        margin: 10px;
+    }
+
+    .start-img {
+        width: 100%;
+    }
+
+    .start-img img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+.big-heading{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.container-of-card{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.card a{
+    width: 100%;
+    margin: 10px;
+}
+.bot-one-2{
+    display: none;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+}
+.inner-bottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+
+/* second pg */
+
+.head-1{
+    width: 100%;
+    height: auto;
+}
+.tab{
+align-items: center;
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+td{
+    font-size: 15px !important;
+    width: 40%;
+    height: auto;
+}
+
+.tab{ 
+    width: 100%;
+   overflow: hidden;
+}
+.num{
+    width: 8% !important;
+    font-size: 12px !important;
+}
+.h{
+    display: none;
+}
+
+.btm{
+    width: 100%;
+}
+.btm img {
+    width: 100%;
+}
+
+.head-1 {
+    width: 100%;
+    height: auto;
+}
+.head-1 p{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.head-1 ,.tab{
+    width: 100%;
+    display: grid;
+    place-content: center;
+};
+
+}

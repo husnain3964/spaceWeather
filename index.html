@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spaceWeather</title>
+  
+   <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon"
+        href="./AssetsSpacce/PHOTO-Northern-Lights-aurora-Christopher-Morse-2015-NWS-photo-contest-800x450-landscape.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="mediaaa.css">
+
+</head>
+
+<body id="body">
+
+
+    <style>
+        /* The switch - the box around the slider */
+        .switch {
+            font-size: 17px;
+            position: relative;
+            display: inline-block;
+            width: 3.5em;
+            height: 2em;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        /* The slider */
+        .slider {
+            --background: #28096b;
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--background);
+            transition: .5s;
+            border-radius: 30px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 1.4em;
+            width: 1.4em;
+            border-radius: 50%;
+            left: 10%;
+            bottom: 15%;
+            box-shadow: inset 8px -4px 0px 0px #fff000;
+            background: var(--background);
+            transition: .5s;
+        }
+
+        input:checked+.slider {
+            background-color: #522ba7;
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(100%);
+            box-shadow: inset 15px -4px 0px 15px #fff000;
+        }
+    </style>
+
+    <div class="nav">
+        <nav class="nav-bar">
+            <div class="logo"><img width="200px" src="./AssetsSpacce/download-removebg-preview.png" alt=""></div>
+            <div class="list">
+                <ul>
+                    <li><a class="one" href="" disabled>home</a></li>
+
+                    <li><a class="three" href="">about space Weather</a></li>
+
+                    <li><a class="five" href=""> data informatiion </a></li>
+                    <li><a class="seven" href="">news</a></li>
+                </ul>
+            </div>
+            <div class="nav-button"> <label class="switch">
+                    <input onchange="mode()" id="light" type="checkbox">
+                    <span class="slider"></span>
+                </label> </div>
+        </nav>
+    </div>
+
+
+
+    <div class="secDiv">
+        <p>news and informatiion</p>
+        <p>about (space) environment</p>
+    </div>
+
+    <div class="third-div">
+        <p>Discover how space weather—from solar flares to geomagnetic storms—affects our technology </p>
+        <p> and daily lives, and explore the vast, boundless expanse of space beyond Earth’s atmosphere.</p>
+    </div>
+
+
+
+    <div class="fourDiv">
+
+       
+
+    </div>
+
+
+    <div class="jobButton">
+        <button class="job">data and informatiion</button>
+    </div>
+
+
+
+    <div class="sixth-heading">
+        <p>month of april 2024 </p>
+    </div>
+
+    <div class="main-job-list">
+
+        <div class="job-list">
+            <ul>
+                <li class="one-1"> <a href="./1apr.html">01/04/2024</a></li>
+                <li class="two-2"><a href="./second.html">02/04/2024</a></li>
+                <li class="three-3"><a href="./3April.html">03/04/2024</a></li>
+                <li class="four-4"><a href="./4april.html">04/04/2024</a></li>
+                <li class="five-5"><a href="./fiveapril.html">05/04/2024</a></li>
+                <li class="six-6"><a href="./eight.html">08/04/2024</a></li>
+                <li class="seven-7"><a href="./nine.html">09/04/2024</a></li>
+                <li class="eight-8"><a href="./15.html">15/04/2024</a></li>
+                <li class="one-1"> <a href="./16.html"> 16/04/2024 </a></li>
+                <li class="two-2"><a href="./18.html">18/04/2024</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="main-job-list">
+
+        <div class="job-list second-list">
+            <ul>
+                <li class="three-3"><a href="./ninteen.html">19/04/2024</a></li>
+                <li class="four-4"><a href="./twentyTwo.html">22/04/2024</a></li>
+                <li class="five-5"><a href="./twentyThree.html">23/04/2024</a></li>
+                <li class="five-5"><a href="./twentyfour.html">24/04/2024</a></li>
+                <li class="five-5"><a href="./twentyfive.html">25/04/2024</a></li>
+                <li class="five-5"><a href="./twentysix.html">26/04/2024</a></li>
+                <li class="five-5"><a href="./twentynine.html">29/04/2024</a></li>
+                <li class="five-5"><a href="./thirty.html">30/04/2024</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="start-img">
+        <img src="./AssetsSpacce/ngc-4361-Block.jpg" alt="">
+    </div>
+
+
+    <div class="big-heading">
+        <p class="h1"><span>NGC 4361</span> is an attractive planetary nebula in Corvus, </p>
+        <p class="line">Amidst the myriad spring galaxies lies NGC 4361, a large and bright planetary nebula located in
+            the southern constellation of Corvus, the Crow. Locating it means dipping low towards the murkier skies
+            close to the horizon, but it’s well worth the extra effort to find and observe it.</p>
+        <p class="h1"> for current data </p>
+    </div>
+
+
+    <div class="container-of-card">
+        <div class="card">
+            <a class="card-body" href="https://www.swpc.noaa.gov/" target="_blank">
+                <section><i class="fa-solid fa-earth-europe"></i></section>
+                <p class="card-heading">
+                    Space Weather Prediction Center</p>
+                <p class="card-summary">National Oceanic and Atmospheric Administration
+                </p>
+            </a>
+
+            <a class="card-body" href="https://www.spaceweather.com/" target="_blank">
+                <section> <i class="fa-solid fa-earth-europe"></i></section>
+                <p class="card-heading">spacewhether.com</p>
+                <p class="card-summary">news and information about sun-earth environment
+                </p>
+            </a>
+
+            <a class="card-body" href="https://www.spaceweatherlive.com/" target="_blank">
+                <section> <i class="fa-solid fa-earth-europe"></i></section>
+                <p class="card-heading">space weather live</p>
+                <p class="card-summary">real time aurora and solar activity
+                </p>
+            </a>
+
+            <a class="card-body" href="https://soho.nascom.nasa.gov/spaceweather/" target="_blank">
+                <section> <i class="fa-solid fa-earth-europe"></i></section>
+                <p class="card-heading">S O H O</p>
+                <p class="card-summary">solar and heliosphric observatory </p>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="big-heading option">
+        <p class="h1">space <span>weather</span></p>
+        <p class="line">Space weather encompasses the effects of solar and cosmic activity, including solar wind, solar
+            flares, and geomagnetic storms, on the Earth's magnetosphere, atmosphere, and technological systems. </p>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="container-of-card">
+        <div class="card">
+            <a class="card-body card-body-2 " href="">
+
+                <p class="card-heading">Solar wind </p>
+                <p class="card-summary">Solar wind is a flow of charged particles, mostly protons and electrons, that
+                    continuously streams out from the Sun’s outer atmosphere, called the corona
+                </p>
+            </a>
+
+            <a class="card-body card-body-2 " href="">
+
+                <p class="card-heading"> geomagnetic storm</p>
+                <p class="card-summary">
+                    A geomagnetic storm is a disturbance in Earth's magnetic field caused by interactions with intense
+                    solar wind, often resulting in auroras and potential impacts on technology.
+                </p>
+            </a>
+
+            <a class="card-body card-body-2" href="">
+
+                <p class="card-heading">Solar flares </p>
+                <p class="card-summary">Solar flares are sudden, intense bursts of radiation and energy on the Sun’s
+                    surface, caused by the release of magnetic energy.
+                </p>
+            </a>
+
+            <a class="card-body  card-body-2 " href="">
+
+                <p class="card-heading">solar radiation storm</p>
+                <p class="card-summary"> is a high-energy event caused by a burst of solar
+                    energetic particles (mostly protons) from the Sun, which can impact space weather, satellite
+                    operations, and human health in space.
+                </p>
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-of-card">
+        <div class="card">
+            <a class="card-body card-body-2 " href="">
+
+                <p class="card-heading">Coronal Mass Ejections </p>
+                <p class="card-summary">(CMEs) are large expulsions of plasma and magnetic field
+                    from the Sun's corona into space, which can impact space weather and Earth's magnetosphere
+                </p>
+            </a>
+
+            <a class="card-body card-body-2 " href="">
+
+                <p class="card-heading">sunspot</p>
+                <p class="card-summary">
+                    A sunspot is a temporary, dark spot on the Sun's surface caused by intense magnetic activity that
+                    inhibits convection and reduces the local temperature.
+                </p>
+            </a>
+
+            <a class="card-body card-body-2" href="">
+
+                <p class="card-heading">Space-time</p>
+                <p class="card-summary"> is the four-dimensional continuum that combines the three dimensions of space
+                    with the one dimension of time, forming a unified framework in which all physical events occur and
+                    are measured.
+                </p>
+            </a>
+
+            <a class="card-body  card-body-2 " href="">
+
+                <p class="card-heading">Sun's magnetic field</p>
+                <p class="card-summary">is a dynamic magnetic field generated by the movement
+                    of charged particles within the Sun, affecting solar activity and extending throughout the solar
+                    system.
+                </p>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bottom -->
+
+    <div class="bottom">
+
+        <div class="inner-bottom">
+            <div class="bottom-one">
+                <p>Check out our detailed info on April’s <br> space weather and use the links to see real-time data for the latest updates <br>
+                    seeker can find and apply for their targeted job.</p>
+
+
+                <p class="bot-one-2">Follow us</p>
+                <ul>
+                    <li class="logo-f"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="logo-w"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li class="logo-i"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="logo-l"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+                </ul>
+
+            </div>
+            <div class="bottom-two ">
+                <p class="bot-2-p">contact us</p>
+                <p> <i class="fa-regular fa-envelope"></i> teambeta@gmail.com </p>
+            </div>
+
+
+        </div>
+
+        <div class="end-line">
+            <p>Privacy Policy || Terms and Condition</p>
+          
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+
+        const light = document.getElementById('light');
+        const bodyy = document.getElementById("body")
+        function mode() {
+            bodyy.style.backgroundColor = ('black')
+        }
+
+
+
+
+    </script>
+
+</body>
+
+
+
+
+
+</html>
